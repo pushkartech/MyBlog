@@ -1,4 +1,4 @@
-<%- include('partials/header'); -%>
+<%- include("partials/header"); -%>
 
 <h1>Compose</h1>
 
@@ -6,16 +6,16 @@
   <div>
     <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label">Title</label>
-      <input type="text" class="form-control" name="posttitle">
+      <input type="text" class="form-control" name="logtitle">
     </div>
   
     <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Post</label>
-      <textarea class="form-control" name="postbody" rows="4"></textarea>
+      <label for="exampleFormControlTextarea1" class="form-label">Details</label>
+      <textarea class="form-control" name="logbody" rows="5"></textarea>
     </div>
   </div>
 
   <button class="btn btn-primary" style="margin-top: 20px;" type="submit" name="button">Publish</button>
 </form>
 
-<%- include('partials/footer'); -%>
+<%- include("partials/footer"); -%>
